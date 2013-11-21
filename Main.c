@@ -3,14 +3,14 @@
 #include <string.h>
 
 typedef struct{
-char categoria[50];
-int codigo;
-float preco;					
-char descricao[50];
-char fabricante[50];
-int dataval;
-int local [10][20];
-int estoque;
+	char categoria[50];
+	int codigo;
+	float preco;					
+	char descricao[50];
+	char fabricante[50];
+	int dataval;
+	int local [10][20];
+	int estoque;
 }Produto;
 
 void buscapreco(float precodigitado){
